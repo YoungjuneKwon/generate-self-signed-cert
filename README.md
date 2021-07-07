@@ -1,6 +1,7 @@
 # Usage
 
 ./0_generate_root_ca.sh org_name
+./1_generate_cert.sh org_name domain
 
 # Reference
 
