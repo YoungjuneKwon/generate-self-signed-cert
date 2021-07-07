@@ -10,6 +10,7 @@ NAME=$1
 mkdir -p tls/certs tls/keys tls/conf
 
 openssl genrsa -aes256 -out tls/keys/${NAME}-rootca.key 2048
+chmod 600 tls/keys/${NAME}-rootca.key
 
 cat <<EOT >> tls/conf/rootca_openssl.conf
 [ req ]
