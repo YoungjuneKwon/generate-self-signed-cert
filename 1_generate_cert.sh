@@ -60,3 +60,5 @@ openssl x509 -req -days 1825 -extensions v3_user \
   -out tls/certs/${DOMAIN}.crt  -extfile tls/conf/host_openssl.conf
 
 openssl x509 -text -in tls/certs/${DOMAIN}.crt
+
+ cat tls/certs/${DOMAIN}.crt tls/certs/${NAME}-rootca.crt > tls/certs/${DOMAIN}.chained.crt
