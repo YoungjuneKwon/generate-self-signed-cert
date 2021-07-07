@@ -6,3 +6,4 @@
 # Reference
 
 https://www.lesstif.com/system-admin/openssl-root-ca-ssl-6979614.html
+https://www.lesstif.com/system-admin/nginx-https-ssl-27984443.html
